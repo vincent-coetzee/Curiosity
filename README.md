@@ -12,7 +12,7 @@ Click on the Curiosity scheme, and when the menu pops up, select "Edit Scheme". 
 
 ![](./image2.jpeg)
 
-Change the argument highlighted in red in the above image the full path of the SamplePacket.txt file that you noted earlier. Close the edit scheme window. Now run the Curiosity application. The output will be generated in the Xcode transcript, on the bottom right hand side of the Xcode window, as shown in the image below :-
+Change the argument highlighted in red in the above image to the full path of the SamplePacket.txt file that you noted earlier. Close the edit scheme window. Now run the Curiosity application. The output will be generated in the Xcode transcript, on the bottom right hand side of the Xcode window, as shown in the image below :-
 
 ![](./image3.jpeg)
 
