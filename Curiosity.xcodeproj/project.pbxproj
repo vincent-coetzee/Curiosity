@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		BF1D31361EE381B400CD02FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31351EE381B400CD02FD /* main.m */; };
+		BF1D31451EE3844600CD02FD /* ROVGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31441EE3844600CD02FD /* ROVGrid.m */; };
+		BF1D31481EE3848600CD02FD /* ROVTransmittedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31471EE3848600CD02FD /* ROVTransmittedPacket.m */; };
+		BF1D31501EE38B3E00CD02FD /* ROVRover.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D314F1EE38B3E00CD02FD /* ROVRover.m */; };
+		BF1D31531EE3982D00CD02FD /* ROVCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31521EE3982D00CD02FD /* ROVCommand.m */; };
+		BF1D31561EE3995600CD02FD /* ROVMoveCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31551EE3995600CD02FD /* ROVMoveCommand.m */; };
+		BF1D31591EE3996800CD02FD /* ROVRotateLeftCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31581EE3996800CD02FD /* ROVRotateLeftCommand.m */; };
+		BF1D315C1EE3997700CD02FD /* ROVRotateRightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D315B1EE3997700CD02FD /* ROVRotateRightCommand.m */; };
+		BF1D315F1EE3A30B00CD02FD /* ROVCardinalDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D315E1EE3A30B00CD02FD /* ROVCardinalDirection.m */; };
+		BF1D318D1EE3C5DE00CD02FD /* TestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D318C1EE3C5DE00CD02FD /* TestSuite.m */; };
+		BF1D31931EE3C69100CD02FD /* ROVCardinalDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D315E1EE3A30B00CD02FD /* ROVCardinalDirection.m */; };
+		BF1D31941EE3C73900CD02FD /* ROVTestPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31761EE3BDA300CD02FD /* ROVTestPacket.m */; };
+		BF1D31951EE3C74600CD02FD /* ROVCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31521EE3982D00CD02FD /* ROVCommand.m */; };
+		BF1D31961EE3C74800CD02FD /* ROVRover.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D314F1EE38B3E00CD02FD /* ROVRover.m */; };
+		BF1D31971EE3C75300CD02FD /* ROVGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31441EE3844600CD02FD /* ROVGrid.m */; };
+		BF1D31981EE3C75700CD02FD /* ROVMoveCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31551EE3995600CD02FD /* ROVMoveCommand.m */; };
+		BF1D31991EE3C75A00CD02FD /* ROVRotateLeftCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D31581EE3996800CD02FD /* ROVRotateLeftCommand.m */; };
+		BF1D319A1EE3C75D00CD02FD /* ROVRotateRightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1D315B1EE3997700CD02FD /* ROVRotateRightCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +42,42 @@
 /* Begin PBXFileReference section */
 		BF1D31321EE381B400CD02FD /* Curiosity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Curiosity; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1D31351EE381B400CD02FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF1D31421EE3833700CD02FD /* Rover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rover.h; sourceTree = "<group>"; };
+		BF1D31431EE3844600CD02FD /* ROVGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVGrid.h; sourceTree = "<group>"; };
+		BF1D31441EE3844600CD02FD /* ROVGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVGrid.m; sourceTree = "<group>"; };
+		BF1D31461EE3848600CD02FD /* ROVTransmittedPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVTransmittedPacket.h; sourceTree = "<group>"; };
+		BF1D31471EE3848600CD02FD /* ROVTransmittedPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVTransmittedPacket.m; sourceTree = "<group>"; };
+		BF1D314A1EE385CA00CD02FD /* SamplePacket.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SamplePacket.txt; sourceTree = "<group>"; };
+		BF1D314E1EE38B3E00CD02FD /* ROVRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVRover.h; sourceTree = "<group>"; };
+		BF1D314F1EE38B3E00CD02FD /* ROVRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVRover.m; sourceTree = "<group>"; };
+		BF1D31511EE3982D00CD02FD /* ROVCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVCommand.h; sourceTree = "<group>"; };
+		BF1D31521EE3982D00CD02FD /* ROVCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVCommand.m; sourceTree = "<group>"; };
+		BF1D31541EE3995600CD02FD /* ROVMoveCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVMoveCommand.h; sourceTree = "<group>"; };
+		BF1D31551EE3995600CD02FD /* ROVMoveCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVMoveCommand.m; sourceTree = "<group>"; };
+		BF1D31571EE3996800CD02FD /* ROVRotateLeftCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVRotateLeftCommand.h; sourceTree = "<group>"; };
+		BF1D31581EE3996800CD02FD /* ROVRotateLeftCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVRotateLeftCommand.m; sourceTree = "<group>"; };
+		BF1D315A1EE3997700CD02FD /* ROVRotateRightCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVRotateRightCommand.h; sourceTree = "<group>"; };
+		BF1D315B1EE3997700CD02FD /* ROVRotateRightCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVRotateRightCommand.m; sourceTree = "<group>"; };
+		BF1D315D1EE3A30B00CD02FD /* ROVCardinalDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVCardinalDirection.h; sourceTree = "<group>"; };
+		BF1D315E1EE3A30B00CD02FD /* ROVCardinalDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROVCardinalDirection.m; sourceTree = "<group>"; };
+		BF1D31741EE3BCCA00CD02FD /* ROVCommandPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROVCommandPacket.h; sourceTree = "<group>"; };
+		BF1D31751EE3BDA300CD02FD /* ROVTestPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ROVTestPacket.h; path = ../CuriosityTests/ROVTestPacket.h; sourceTree = "<group>"; };
+		BF1D31761EE3BDA300CD02FD /* ROVTestPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ROVTestPacket.m; path = ../CuriosityTests/ROVTestPacket.m; sourceTree = "<group>"; };
+		BF1D31781EE3C3D600CD02FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF1D318A1EE3C5DE00CD02FD /* TestSuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1D318C1EE3C5DE00CD02FD /* TestSuite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSuite.m; sourceTree = "<group>"; };
+		BF1D318E1EE3C5DE00CD02FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF1D312F1EE381B400CD02FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1D31871EE3C5DE00CD02FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +90,10 @@
 		BF1D31291EE381B300CD02FD = {
 			isa = PBXGroup;
 			children = (
+				BF1D31781EE3C3D600CD02FD /* README.md */,
+				BF1D31491EE385B200CD02FD /* Resources */,
 				BF1D31341EE381B400CD02FD /* Curiosity */,
+				BF1D318B1EE3C5DE00CD02FD /* TestSuite */,
 				BF1D31331EE381B400CD02FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				BF1D31321EE381B400CD02FD /* Curiosity */,
+				BF1D318A1EE3C5DE00CD02FD /* TestSuite.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +111,45 @@
 			isa = PBXGroup;
 			children = (
 				BF1D31351EE381B400CD02FD /* main.m */,
+				BF1D31421EE3833700CD02FD /* Rover.h */,
+				BF1D31431EE3844600CD02FD /* ROVGrid.h */,
+				BF1D31441EE3844600CD02FD /* ROVGrid.m */,
+				BF1D31461EE3848600CD02FD /* ROVTransmittedPacket.h */,
+				BF1D31471EE3848600CD02FD /* ROVTransmittedPacket.m */,
+				BF1D314E1EE38B3E00CD02FD /* ROVRover.h */,
+				BF1D314F1EE38B3E00CD02FD /* ROVRover.m */,
+				BF1D31511EE3982D00CD02FD /* ROVCommand.h */,
+				BF1D31521EE3982D00CD02FD /* ROVCommand.m */,
+				BF1D31541EE3995600CD02FD /* ROVMoveCommand.h */,
+				BF1D31551EE3995600CD02FD /* ROVMoveCommand.m */,
+				BF1D31571EE3996800CD02FD /* ROVRotateLeftCommand.h */,
+				BF1D31581EE3996800CD02FD /* ROVRotateLeftCommand.m */,
+				BF1D315A1EE3997700CD02FD /* ROVRotateRightCommand.h */,
+				BF1D315B1EE3997700CD02FD /* ROVRotateRightCommand.m */,
+				BF1D315D1EE3A30B00CD02FD /* ROVCardinalDirection.h */,
+				BF1D315E1EE3A30B00CD02FD /* ROVCardinalDirection.m */,
+				BF1D31741EE3BCCA00CD02FD /* ROVCommandPacket.h */,
 			);
 			path = Curiosity;
+			sourceTree = "<group>";
+		};
+		BF1D31491EE385B200CD02FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D314A1EE385CA00CD02FD /* SamplePacket.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF1D318B1EE3C5DE00CD02FD /* TestSuite */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D31751EE3BDA300CD02FD /* ROVTestPacket.h */,
+				BF1D31761EE3BDA300CD02FD /* ROVTestPacket.m */,
+				BF1D318C1EE3C5DE00CD02FD /* TestSuite.m */,
+				BF1D318E1EE3C5DE00CD02FD /* Info.plist */,
+			);
+			path = TestSuite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,16 +172,39 @@
 			productReference = BF1D31321EE381B400CD02FD /* Curiosity */;
 			productType = "com.apple.product-type.tool";
 		};
+		BF1D31891EE3C5DE00CD02FD /* TestSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1D318F1EE3C5DE00CD02FD /* Build configuration list for PBXNativeTarget "TestSuite" */;
+			buildPhases = (
+				BF1D31861EE3C5DE00CD02FD /* Sources */,
+				BF1D31871EE3C5DE00CD02FD /* Frameworks */,
+				BF1D31881EE3C5DE00CD02FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSuite;
+			productName = TestSuite;
+			productReference = BF1D318A1EE3C5DE00CD02FD /* TestSuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BF1D312A1EE381B300CD02FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ROV;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Vincent Coetzee";
 				TargetAttributes = {
 					BF1D31311EE381B400CD02FD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7JY28TCY56;
+						ProvisioningStyle = Automatic;
+					};
+					BF1D31891EE3C5DE00CD02FD = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 7JY28TCY56;
 						ProvisioningStyle = Automatic;
@@ -111,16 +224,51 @@
 			projectRoot = "";
 			targets = (
 				BF1D31311EE381B400CD02FD /* Curiosity */,
+				BF1D31891EE3C5DE00CD02FD /* TestSuite */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1D31881EE3C5DE00CD02FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF1D312E1EE381B400CD02FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1D31501EE38B3E00CD02FD /* ROVRover.m in Sources */,
+				BF1D31531EE3982D00CD02FD /* ROVCommand.m in Sources */,
+				BF1D31561EE3995600CD02FD /* ROVMoveCommand.m in Sources */,
 				BF1D31361EE381B400CD02FD /* main.m in Sources */,
+				BF1D31591EE3996800CD02FD /* ROVRotateLeftCommand.m in Sources */,
+				BF1D315C1EE3997700CD02FD /* ROVRotateRightCommand.m in Sources */,
+				BF1D31451EE3844600CD02FD /* ROVGrid.m in Sources */,
+				BF1D31481EE3848600CD02FD /* ROVTransmittedPacket.m in Sources */,
+				BF1D315F1EE3A30B00CD02FD /* ROVCardinalDirection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1D31861EE3C5DE00CD02FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1D31941EE3C73900CD02FD /* ROVTestPacket.m in Sources */,
+				BF1D31991EE3C75A00CD02FD /* ROVRotateLeftCommand.m in Sources */,
+				BF1D319A1EE3C75D00CD02FD /* ROVRotateRightCommand.m in Sources */,
+				BF1D31951EE3C74600CD02FD /* ROVCommand.m in Sources */,
+				BF1D31981EE3C75700CD02FD /* ROVMoveCommand.m in Sources */,
+				BF1D318D1EE3C5DE00CD02FD /* TestSuite.m in Sources */,
+				BF1D31931EE3C69100CD02FD /* ROVCardinalDirection.m in Sources */,
+				BF1D31961EE3C74800CD02FD /* ROVRover.m in Sources */,
+				BF1D31971EE3C75300CD02FD /* ROVGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +380,30 @@
 			};
 			name = Release;
 		};
+		BF1D31901EE3C5DE00CD02FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7JY28TCY56;
+				INFOPLIST_FILE = TestSuite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.TestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF1D31911EE3C5DE00CD02FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7JY28TCY56;
+				INFOPLIST_FILE = TestSuite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.TestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -249,6 +421,14 @@
 			buildConfigurations = (
 				BF1D313A1EE381B400CD02FD /* Debug */,
 				BF1D313B1EE381B400CD02FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF1D318F1EE3C5DE00CD02FD /* Build configuration list for PBXNativeTarget "TestSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1D31901EE3C5DE00CD02FD /* Debug */,
+				BF1D31911EE3C5DE00CD02FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TestSuite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>BF1D31311EE381B400CD02FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF1D31641EE3AC5600CD02FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF1D317D1EE3C4DC00CD02FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF1D31891EE3C5DE00CD02FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
